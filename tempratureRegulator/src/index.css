@@ -1,0 +1,20 @@
+body{
+ width: 100%;
+ min-height: 500px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.todo-list{
+ background-color: rgb(184, 239, 184);
+ width: 300px;
+}
+
+.todo-items{
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.tick{
+ background-color: aquamarine;
+}
