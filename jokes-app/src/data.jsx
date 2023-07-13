@@ -1,4 +1,4 @@
-export default [
+const funny = [
 {
   id:1,
   question:'Why did the chicken cross the road?',
@@ -26,3 +26,4 @@ export default [
  },  
 
 ]
+export default funny

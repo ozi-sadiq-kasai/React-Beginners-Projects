@@ -1,18 +1,28 @@
 import Jokes from './components/Jokes'
-import data from './data'
-
+import funny from './data'
+import products from './items'
+import Shop from './components/Shop'
 
 function App() {
   return (
-    <div>
-      {data.map((joke) =>{
+    <>
+      {funny.map((joke) =>{
     return(
      <div key={joke.id}>
       <Jokes {...joke}/>
      </div>
     )  
  })}
+
+  {products.map((product) =>{
+   return(
+    <div key={product.price}>
+     <Shop {...product}/>
     </div>
+    
+   )
+  })}
+    </>
   )
 }
 export default App
